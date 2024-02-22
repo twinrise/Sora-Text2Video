@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const navigation = {
   product: [
-    {name: 'SoraT2V', href: 'https://SoraT2V.com'}
+    {name: 'SoraT2V', href: 'https://sora-text-to-video.app'}
   ],
   legal: [
     {name: 'Privacy Policy', href: '/privacy-policy'},
@@ -29,7 +29,7 @@ export default function Footer({
                 src="/appicon.svg"
                 width={32}
                 height={32}
-                alt="SoraT2V.com"
+                alt="sora-text-to-video.app"
               />
             </a>
             <p className="text-sm text-gray-300">

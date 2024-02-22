@@ -14,7 +14,7 @@ const navigation = {
   social: [
     {
       name: 'GitHub',
-      href: 'https://github.com/SoraT2V/SoraT2V',
+      href: 'https://github.com/twinrise/Sora-Text2Video',
       icon: (props) => (
         <svg fill="#fff" viewBox="0 0 24 24" {...props}>
           <path
@@ -67,15 +67,7 @@ export default function Header({
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-4 lg:px-0" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href={`/${locale}`} className="-m-1.5 p-1.5" onClick={() => setShowLoadingModal(true)}>
-            <Image className="h-8 w-auto" src="/appicon.svg" alt="SoraT2V.com" width={32} height={32}/>
-          </a>
-          <a href={`/${locale}`} className="-m-1.5 ml-0.5 p-1.5" onClick={() => setShowLoadingModal(true)}>
-            <Image
-              className="h-8 w-auto"
-              src="/SoraT2V.svg"
-              width={32}
-              height={24}
-              alt="SoraT2V.com"/>
+            <Image className="h-10 w-auto" src="/appicon.svg" alt="sora-text-to-video.app" width={32} height={32}/>
           </a>
         </div>
         <div className="flex flex-1 items-center justify-end gap-x-1">

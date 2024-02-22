@@ -1,6 +1,6 @@
 # SoraT2V
 SoraT2V is an open-source project that simplifies video creation by allowing users to generate videos online with OpenAI's Sora model using text, featuring easy one-click website deployment.
-👉 [SoraT2V](https://SoraT2V.com)
+👉 [SoraT2V](https://sora-text-to-video.app)
 
 <div align="left">
 
@@ -52,7 +52,7 @@ pnpm dev
 ```
 
 ### 5. Open [http://localhost](http://localhost) with your browser to see it.
-![success_deploy.jpg](https://SoraT2V.com/success_deploy.jpg)
+![success_deploy.jpg](https://sora-text-to-video.app/success_deploy.jpg)
 
 
 ### Important
