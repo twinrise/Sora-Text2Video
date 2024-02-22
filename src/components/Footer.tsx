@@ -25,10 +25,10 @@ export default function Footer({
           <div className="space-y-8">
             <a href={`/${locale}`}>
               <Image
-                className="h-10"
+                className="h-14"
                 src="/appicon.svg"
-                width={32}
-                height={32}
+                width={40}
+                height={40}
                 alt="sora-text-to-video.app"
               />
             </a>

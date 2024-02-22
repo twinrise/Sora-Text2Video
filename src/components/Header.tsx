@@ -67,7 +67,7 @@ export default function Header({
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-4 lg:px-0" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href={`/${locale}`} className="-m-1.5 p-1.5" onClick={() => setShowLoadingModal(true)}>
-            <Image className="h-10 w-auto" src="/appicon.svg" alt="sora-text-to-video.app" width={32} height={32}/>
+            <Image className="h-10 w-auto" src="/sorat2v.svg" alt="sora-text-to-video.app" width={32} height={32}/>
           </a>
         </div>
         <div className="flex flex-1 items-center justify-end gap-x-1">
